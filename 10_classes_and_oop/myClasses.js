@@ -40,4 +40,5 @@ User.prototype.changeUsername = function(){
 const tea = new User("tea", "tea@gmail.com", "123")
 
 console.log(tea.encryptPassword());
-console.log(tea.changeUsername());
+console.log(tea.changeUsername());        
+//output = 123abc , TEA
